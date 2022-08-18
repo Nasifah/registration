@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #432499;
+  height: 100vh;
+  font-weight: 700;
+  font-family: "Space Grotesk";
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  /* position: relative; */
+}
+
+/* Add padding to containers */
+div.container {
+  background-color: #fff;
+  font-size: 18px;
+  height: 100%;
+  border-radius: 8px 0px 0px 8px;
+  padding-top: 2%;
+  margin: auto;
+}
+
+.cube {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  z-index: -1;
+  max-width: 297px;
+  max-height: 272px;
+}
+
+.ellipse {
+  position: absolute;
+  bottom: -9px;
+  right: 3px;
+  z-index: -1;
+  max-width: 777px;
+  max-height: 500px;
+  mix-blend-mode: overlay;
+}
+
+#ellipse {
+  display: none;
+}
+
+#create {
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+  color: #2f2d33;
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+b {
+  font-size: 18px;
+  line-height: 28px;
+  color: #2f2d33;
+}
+
+/* Full-width input fields */
+
+#email,
+#name,
+#password,
+button {
+  width: 100%;
+  border: 1px solid rgba(33, 37, 41, 0.5);
+  outline: 0;
+  padding: 8px 20px;
+  line-height: 28px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #adadad;
+}
+
+#logo {
+  display: none;
+}
+
+main {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  /* margin: auto; */
+  margin: 5% auto;
+  /* position: relative; */
+}
+
+form {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.register {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  flex: 1;
+}
+
+.right {
+  /* width: 30%; */
+  margin: auto;
+  height: 100%;
+  flex: 1;
+}
+
+button {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 8%;
+  text-decoration: none;
+  background: #432499;
+  border-radius: 4px;
+  color: #f6f5f7;
+  line-height: 30px;
+  margin-bottom: 2%;
+  width: 100%;
+  outline: 0;
+  padding: 8px 20px;
+  /* height: 63%; */
+}
+
+.create {
+  width: 60%;
+  /* margin: 7% 20%; */
+  margin: auto;
+}
+
+.name,
+.email {
+  padding-bottom: 4%;
+}
+.logo {
+  width: 38%;
+  height: 23%;
+  /* display: block; */
+  margin-top: 10%;
+}
+
+.login {
+  font-size: 16px;
+  line-height: 28px;
+  color: #2f2d33;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+a {
+  color: #432499;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+#forgot {
+text-align: right;
+  font-size: 16px;
+  padding: 1%;
+}
+
+@media (max-width: 1024px) {
+
+  body {
+    overflow: hidden;
+  }
+  .create {
+    height: 5%;
+  }
+
+  div.container {
+    height: 100%;
+  }
+
+  #email,
+  #name,
+  #password,
+  .container {
+    line-height: 18px;
+    font-size: 8px;
+  }
+
+  #email,
+  #name,
+  #password,
+  button {
+    padding: 4px 20px;
+    width: 80%;
+  }
+
+  #create {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10%;
+  }
+
+  b,
+  button {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .login {
+    /* text-align: left; */
+    font-size: 9px;
+    width: 80%;
+  }
+
+  .logo {
+    width: 30%;
+    height: 100%;
+    /* display: block; */
+    margin-top: 10%;
+  }
+
+  button {
+    margin-bottom: 0%;
+  }
+
+  .cube {
+    top: -15px;
+      left: 5px;
+      max-width: 211px;
+        max-height: 193px;
+  }
+
+  .ellipse {
+    bottom: -15px;
+      right: -5px;
+      max-width: 553px;
+      max-height: 356px;
+  }
+
+  main {
+    margin: 4% auto;
+  }
+
+  #forgot {
+    font-size: 9px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 780px) {
+  body {
+    background: linear-gradient(180deg, #432499 50%, #D8C1FF 50%);
+    overflow: hidden;
+  }
+
+        .right {
+          display: none;
+        }
+
+        form {
+          width: 88%;
+          height: 100%;
+          margin: auto;
+        }
+
+        main {
+          width: 100%;
+          height: 63%;
+          margin: 0% auto;
+          
+        }
+
+.left {
+  height: 100%;
+}
+
+.logo {
+  display: none;
+}
+ 
+#logo {
+  display: block;
+  filter: brightness(0) invert(1);
+  max-width: 120px;
+  max-height: 74px;
+  margin: 10% auto;
+}
+
+div.container {
+  border-radius: 8px;
+  background: #F6F5F7;
+}
+
+#email,
+#name,
+#password,
+button {
+  padding: 4px 5px;
+  width: 100%;
+}
+
+b,
+button {
+  font-size: 8px;
+  line-height: 20px;
+}
+
+b {
+  font-size: 12px;
+}
+.login {
+  /* text-align: left; */
+  font-size: 11px;
+  width: 100%;
+}
+
+ #forgot {
+   font-size: 11px;
+ }
+
+button {
+  margin-top: 10%;
+  font-size: 8px;
+}
+
+a {
+  padding-left: 2px;
+}
+
+#create {
+  font-size: 20px;
+  line-height: 10px;
+  margin: 12% auto;
+}
+
+.cube {
+  top: 70px;
+  left: -10px;
+  max-width: 100px;
+  max-height: 145px;
+}
+
+#ellipse {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+    right: -5px;
+    max-width: 300px;
+    max-height: 255px;
+    mix-blend-mode: overlay;
+      
+}
+
+}
+
+@media (max-width: 480px) {
+
+  #logo {
+    max-width: 80px;
+    margin: 12% auto;
+  }
+
+    #email,
+    #name,
+    #password,
+    button {
+      padding: 2px 5px;
+      width: 100%;
+    }
+
+        b,
+        button {
+          font-size: 8px;
+          line-height: 20px;
+        }
+
+        button, .login {
+          font-size: 8px;
+          width: 100%;
+        }
+
+        #create {
+          font-size: 18px;
+          margin: 8% auto;
+        }
+
+        .create {
+          width: 80%;
+        }
+
+                .cube {
+                  top: 40px;
+                left: -15px;}
+
+                #ellipse {
+                  right: -49px;
+                  max-height: 230px;
+                  top: -15px;
+                }
+
+                a {
+                  padding-left: 0px;
+                }
+
+                body {
+                  overflow: hidden;
+                }
+}
+
+
