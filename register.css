@@ -51,15 +51,16 @@ div.container {
 
 #ellipse {
   display: none;
+  /* width: 5%; */
 }
 
 #create {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
   color: #2f2d33;
-  margin-top: 5%;
-  margin-bottom: 8%;
+  margin-top: 8%;
+  margin-bottom: 12%;
 }
 
 b {
@@ -81,7 +82,7 @@ button {
   line-height: 28px;
   border-radius: 4px;
   font-size: 14px;
-  color: #adadad;
+color: #2f2d33;
 }
 
 #logo {
@@ -94,8 +95,9 @@ main {
   justify-content: center;
   align-items: center;
   height: 85%;
+  overflow: hidden;
   /* margin: auto; */
-  margin: 5% auto;
+  margin: 6% auto;
   /* position: relative; */
 }
 
@@ -103,6 +105,7 @@ form {
   margin: auto;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .register {
@@ -151,11 +154,12 @@ button {
 .email {
   padding-bottom: 4%;
 }
+
 .logo {
-  width: 38%;
+  width: 55%;
   height: 23%;
-  /* display: block; */
-  margin-top: 10%;
+  display: block;
+  margin-top: 15%;
 }
 
 .login {
@@ -183,12 +187,16 @@ text-align: right;
   body {
     overflow: hidden;
   }
-  .create {
-    height: 5%;
-  }
+
+  /* .create {
+    width: 80%;
+    margin: auto;
+  } */
 
   div.container {
     height: 100%;
+    /* width: 100%; */
+    overflow-x: hidden;
   }
 
   #email,
@@ -196,40 +204,40 @@ text-align: right;
   #password,
   .container {
     line-height: 18px;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   #email,
   #name,
   #password,
   button {
-    padding: 4px 20px;
-    width: 80%;
+    padding: 6px 20px;
+    width: 100%;
   }
 
   #create {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 20px;
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   b,
   button {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
   }
 
   .login {
     /* text-align: left; */
-    font-size: 9px;
+    font-size: 12px;
     width: 80%;
   }
 
   .logo {
-    width: 30%;
-    height: 100%;
-    /* display: block; */
+    display: block;
     margin-top: 10%;
+    width: 55%;
+      height: 23%;
   }
 
   button {
@@ -237,7 +245,7 @@ text-align: right;
   }
 
   .cube {
-    top: -15px;
+    top: 85px;
       left: 5px;
       max-width: 211px;
         max-height: 193px;
@@ -246,12 +254,13 @@ text-align: right;
   .ellipse {
     bottom: -15px;
       right: -5px;
-      max-width: 553px;
-      max-height: 356px;
+      max-width: 253px;
+      max-height: 556px;
   }
 
   main {
-    margin: 4% auto;
+    margin: 15% auto;
+    height: 70%;
   }
 
   #forgot {
@@ -265,6 +274,9 @@ text-align: right;
   body {
     background: linear-gradient(180deg, #432499 50%, #D8C1FF 50%);
     overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
   }
 
         .right {
@@ -272,20 +284,24 @@ text-align: right;
         }
 
         form {
-          width: 88%;
+          width: 90%;
           height: 100%;
           margin: auto;
         }
 
         main {
           width: 100%;
-          height: 63%;
+          height: 80%;
           margin: 0% auto;
+          overflow: hidden;
           
         }
 
 .left {
   height: 100%;
+  /* width: max-content; */
+  width: 100%;
+  overflow: hidden;
 }
 
 .logo {
@@ -303,28 +319,30 @@ text-align: right;
 div.container {
   border-radius: 8px;
   background: #F6F5F7;
+  width: 100%;
 }
 
 #email,
 #name,
 #password,
 button {
-  padding: 4px 5px;
+  padding: 8px 20px;
   width: 100%;
 }
 
 b,
 button {
-  font-size: 8px;
+  font-size: 18px;
   line-height: 20px;
 }
 
 b {
-  font-size: 12px;
+  font-size: 15px;
 }
+
 .login {
   /* text-align: left; */
-  font-size: 11px;
+  font-size: 15px;
   width: 100%;
 }
 
@@ -334,7 +352,7 @@ b {
 
 button {
   margin-top: 10%;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 a {
@@ -348,10 +366,11 @@ a {
 }
 
 .cube {
-  top: 70px;
-  left: -10px;
-  max-width: 100px;
-  max-height: 145px;
+  top: 80px;
+  /* left: 0px; */
+  /* left: -10px; */
+  max-width: 150px;
+    max-height: 193px;
 }
 
 #ellipse {
@@ -360,8 +379,8 @@ a {
   z-index: -1;
   top: 0px;
     right: -5px;
-    max-width: 300px;
-    max-height: 255px;
+  max-width: 153px;
+    max-height: 410px;
     mix-blend-mode: overlay;
       
 }
@@ -370,33 +389,46 @@ a {
 
 @media (max-width: 480px) {
 
-  #logo {
+  /* #logo {
     max-width: 80px;
     margin: 12% auto;
-  }
+  } */
+
+#logo {
+  max-width: 170px;
+  max-height: 94px;
+  margin: 15% auto;
+}
 
     #email,
     #name,
     #password,
     button {
-      padding: 2px 5px;
+      padding: 10px 20px;
       width: 100%;
+      font-size: 15px;
     }
+
+        #email,
+        #name,
+        #password {
+          margin-top: 2%;
+        }
 
         b,
         button {
-          font-size: 8px;
+          font-size: 18px;
           line-height: 20px;
         }
 
         button, .login {
-          font-size: 8px;
+          font-size: 15px;
           width: 100%;
         }
 
         #create {
-          font-size: 18px;
-          margin: 8% auto;
+          font-size: 28px;
+          margin: 10% auto;
         }
 
         .create {
@@ -404,14 +436,15 @@ a {
         }
 
                 .cube {
-                  top: 40px;
-                left: -15px;}
+                  top: 115px;
+                /* left: -5px; */
+              }
 
-                #ellipse {
+                /* #ellipse {
                   right: -49px;
                   max-height: 230px;
                   top: -15px;
-                }
+                } */
 
                 a {
                   padding-left: 0px;
