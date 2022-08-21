@@ -321,8 +321,8 @@ a {
     background: #f6f5f7;
     width: 100%;
     height: auto;
-margin: auto;
-margin-top: 3%;
+    margin: auto;
+    margin-top: 0%;
   }
 
   #email,
