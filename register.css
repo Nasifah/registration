@@ -82,7 +82,7 @@ button {
   line-height: 28px;
   border-radius: 4px;
   font-size: 14px;
-color: #2f2d33;
+  color: #2f2d33;
 }
 
 #logo {
@@ -177,13 +177,12 @@ a {
 }
 
 #forgot {
-text-align: right;
+  text-align: right;
   font-size: 16px;
   padding: 1%;
 }
 
 @media (max-width: 1024px) {
-
   body {
     overflow: hidden;
   }
@@ -237,7 +236,7 @@ text-align: right;
     display: block;
     margin-top: 10%;
     width: 55%;
-      height: 23%;
+    height: 23%;
   }
 
   button {
@@ -246,16 +245,16 @@ text-align: right;
 
   .cube {
     top: 85px;
-      left: 5px;
-      max-width: 211px;
-        max-height: 193px;
+    left: 5px;
+    max-width: 211px;
+    max-height: 193px;
   }
 
   .ellipse {
     bottom: -15px;
-      right: -5px;
-      max-width: 253px;
-      max-height: 556px;
+    right: -5px;
+    max-width: 253px;
+    max-height: 556px;
   }
 
   main {
@@ -269,190 +268,173 @@ text-align: right;
   }
 }
 
-
 @media (max-width: 780px) {
   body {
-    background: linear-gradient(180deg, #432499 50%, #D8C1FF 50%);
+    background: linear-gradient(180deg, #432499 50%, #d8c1ff 50%);
     overflow: hidden;
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
   }
 
-        .right {
-          display: none;
-        }
+  .right {
+    display: none;
+  }
 
-        form {
-          width: 90%;
-          height: 100%;
-          margin: auto;
-        }
+  form {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
 
-        main {
-          width: 100%;
-          height: 80%;
-          margin: 0% auto;
-          overflow: hidden;
-          
-        }
+  main {
+    width: 100%;
+    height: 80%;
+    margin: 0% auto;
+    overflow: hidden;
+  }
 
-.left {
-  height: 100%;
-  /* width: max-content; */
-  width: 100%;
-  overflow: hidden;
-}
+  .left {
+    height: 100%;
+    /* width: max-content; */
+    width: 100%;
+    overflow: hidden;
+  }
 
-.logo {
-  display: none;
-}
- 
-#logo {
-  display: block;
-  filter: brightness(0) invert(1);
-  max-width: 120px;
-  max-height: 74px;
-  margin: 10% auto;
-}
+  .logo {
+    display: none;
+  }
 
-div.container {
-  border-radius: 8px;
-  background: #F6F5F7;
-  width: 100%;
-}
+  #logo {
+    display: block;
+    filter: brightness(0) invert(1);
+    max-width: 120px;
+    max-height: 74px;
+    margin: 10% auto;
+  }
 
-#email,
-#name,
-#password,
-button {
-  padding: 8px 20px;
-  width: 100%;
-}
+  div.container {
+    border-radius: 8px;
+    background: #f6f5f7;
+    width: 100%;
+  }
 
-b,
-button {
-  font-size: 18px;
-  line-height: 20px;
-}
+  #email,
+  #name,
+  #password,
+  button {
+    padding: 8px 20px;
+    width: 100%;
+  }
 
-b {
-  font-size: 15px;
-}
+  b,
+  button {
+    font-size: 18px;
+    line-height: 20px;
+  }
 
-.login {
-  /* text-align: left; */
-  font-size: 15px;
-  width: 100%;
-}
+  b {
+    font-size: 15px;
+  }
 
- #forgot {
-   font-size: 11px;
- }
+  .login {
+    /* text-align: left; */
+    font-size: 15px;
+    width: 100%;
+  }
 
-button {
-  margin-top: 10%;
-  font-size: 12px;
-}
+  #forgot {
+    font-size: 11px;
+  }
 
-a {
-  padding-left: 2px;
-}
+  button {
+    margin-top: 10%;
+    font-size: 12px;
+  }
 
-#create {
-  font-size: 20px;
-  line-height: 10px;
-  margin: 12% auto;
-}
+  a {
+    padding-left: 2px;
+  }
 
-.cube {
-  top: 80px;
-  /* left: 0px; */
-  /* left: -10px; */
-  max-width: 150px;
+  #create {
+    font-size: 20px;
+    line-height: 10px;
+    margin: 12% auto;
+  }
+
+  .cube {
+    top: 80px;
+    /* left: 0px; */
+    /* left: -10px; */
+    max-width: 150px;
     max-height: 193px;
-}
+  }
 
-#ellipse {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 0px;
-    right: -5px;
-  max-width: 153px;
+  #ellipse {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    max-width: 153px;
     max-height: 410px;
     mix-blend-mode: overlay;
-      
-}
-
+  }
 }
 
 @media (max-width: 480px) {
+  #logo {
+    max-width: 170px;
+    max-height: 94px;
+    margin: 10% auto;
+  }
 
-  /* #logo {
-    max-width: 80px;
-    margin: 12% auto;
-  } */
+  #email,
+  #name,
+  #password,
+  button {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 15px;
+  }
 
-#logo {
-  max-width: 170px;
-  max-height: 94px;
-  margin: 15% auto;
+  #email,
+  #name,
+  #password {
+    margin-top: 2%;
+  }
+
+  b,
+  button {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  button,
+  .login {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  #create {
+    font-size: 28px;
+    margin: 10% auto;
+  }
+
+  .create {
+    width: 80%;
+  }
+
+  .cube {
+    top: 65px;
+    left: -15px;
+  }
+
+  a {
+    padding-left: 0px;
+  }
+
+  body {
+    overflow: hidden;
+  }
 }
-
-    #email,
-    #name,
-    #password,
-    button {
-      padding: 10px 20px;
-      width: 100%;
-      font-size: 15px;
-    }
-
-        #email,
-        #name,
-        #password {
-          margin-top: 2%;
-        }
-
-        b,
-        button {
-          font-size: 18px;
-          line-height: 20px;
-        }
-
-        button, .login {
-          font-size: 15px;
-          width: 100%;
-        }
-
-        #create {
-          font-size: 28px;
-          margin: 10% auto;
-        }
-
-        .create {
-          width: 80%;
-        }
-
-                .cube {
-                  top: 115px;
-                /* left: -5px; */
-              }
-
-                /* #ellipse {
-                  right: -49px;
-                  max-height: 230px;
-                  top: -15px;
-                } */
-
-                a {
-                  padding-left: 0px;
-                }
-
-                body {
-                  overflow: hidden;
-                }
-}
-
-
