@@ -384,7 +384,7 @@ a {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   #logo {
     max-width: 170px;
     margin: 8% auto;
