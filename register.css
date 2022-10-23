@@ -429,8 +429,12 @@ a {
   .cube {
     top: 65px;
     left: -15px;
+    display: none;
   }
 
+  #ellipse {
+    display: none;
+  }
   a {
     padding-left: 0px;
   }
